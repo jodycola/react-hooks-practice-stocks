@@ -8,7 +8,7 @@ const url = 'http://localhost:3001/stocks'
 function MainContainer() {
   const [stocks, setStocks] = useState([])
   const [myStocks, setMyStocks] = useState([])
-  const [sort, setSort] = useState("")
+  const [sort, setSort] = useState("Alphabetically")
   const [filter, setFilter] = useState("Tech")
 
   useEffect(() => {
